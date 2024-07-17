@@ -58,6 +58,12 @@
       ]
     },
     {
+      "group": "Ai Agent",
+      "pages": [
+        "agent/create_agent"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
