@@ -64,7 +64,7 @@
       ]
     },
     {
-      "group": "Ai Agent",
+      "group": "Agent call",
       "pages": [
         "agent/create_agent"
       ]
