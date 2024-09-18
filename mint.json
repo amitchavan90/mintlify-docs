@@ -1,91 +1,79 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "OneInbox AI",
   "logo": {
-    "dark": "/logo/dark.svg",
+    "dark": "/logo/light.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#6B21A8",
+    "light": "#C084FC",
+    "dark": "#6B21A8",
     "anchors": {
-      "from": "#0D9373",
+      "from": "#C084FC",
       "to": "#07C983"
     }
   },
   "topbarLinks": [
     {
+      "name": "Home",
+      "url": "https://oninbox.ai"
+    },
+    {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "mailto:hello@oneinbox.ai"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://discord.gg/KSkdaujm"
     }
+
   ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://app.oneinbox.ai"
+  },
+  
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "quickstart"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "AI Agent",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "ai-agent/profile",
+        "ai-agent/role",
+        "ai-agent/actions",
+        "ai-agent/testing"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Calls & Contact",
       "pages": [
-        "api-reference/introduction"
+        "calls/call-log-details",
+        "contacts/add-contact",
+        "calls/outbound-call"
       ]
     },
+
     {
-      "group": "Endpoint Examples",
+      "group": "Settings",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "settings/add-widget",
+        "settings/invite-user",
+        "settings/add-phone-number",
+        "settings/whitelabel"
       ]
     }
+
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "youtube": "https://www.youtube.com/@OneInbox-AI",
+    "linkedin": "https://www.linkedin.com/company/oneinboxai"
   }
 }
